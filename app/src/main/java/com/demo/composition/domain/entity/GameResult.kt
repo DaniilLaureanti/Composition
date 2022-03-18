@@ -1,5 +1,8 @@
 package com.demo.composition.domain.entity
 
-enum class GameResult  {
-    TEST, EASY, NORMAL, HARD
-}
+data class GameResult(
+    val winner: Boolean,
+    val countOfRightAnswers: Int,
+    val countOfQuestions: Int,
+    val gameSettings: GameSettings
+)
