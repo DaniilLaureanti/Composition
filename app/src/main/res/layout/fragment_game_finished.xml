@@ -83,7 +83,7 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button_retry"
-            style="@style/TestButtonStyle"
+            style="@style/WelcomeButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_retry"
