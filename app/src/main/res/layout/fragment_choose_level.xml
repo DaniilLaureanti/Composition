@@ -5,7 +5,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".presentation.ChooseLevelFragment">
+        tools:context="com.laureanti.composition.presentation.ChooseLevelFragment">
 
         <TextView
             android:id="@+id/tv_title_level"

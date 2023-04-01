@@ -1,20 +1,18 @@
-package com.demo.composition.presentation
+package com.laureanti.composition.presentation
 
 import android.app.Application
-import android.content.Context
 import android.os.CountDownTimer
-import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.demo.composition.R
-import com.demo.composition.data.GameRepositoryImpl
-import com.demo.composition.domain.entity.GameResult
-import com.demo.composition.domain.entity.GameSettings
-import com.demo.composition.domain.entity.Level
-import com.demo.composition.domain.entity.Question
-import com.demo.composition.domain.usecases.GenerateQuestionUseCase
-import com.demo.composition.domain.usecases.GetGameSettingsUseCase
+import com.laureanti.composition.R
+import com.laureanti.composition.data.GameRepositoryImpl
+import com.laureanti.composition.domain.entity.GameResult
+import com.laureanti.composition.domain.entity.GameSettings
+import com.laureanti.composition.domain.entity.Level
+import com.laureanti.composition.domain.entity.Question
+import com.laureanti.composition.domain.usecases.GenerateQuestionUseCase
+import com.laureanti.composition.domain.usecases.GetGameSettingsUseCase
 
 class GameViewModel(
     private val application: Application,
@@ -89,7 +87,7 @@ class GameViewModel(
     }
 
     private fun calculatePercentOfRightAnswers(): Int {
-        if (countOfQuestions == null){
+        if (countOfQuestions == null) {
             return 0
         }
         return ((countOfRightAnswers / countOfQuestions.toDouble()) * 100).toInt()

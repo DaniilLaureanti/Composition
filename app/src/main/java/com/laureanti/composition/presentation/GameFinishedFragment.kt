@@ -1,17 +1,13 @@
-package com.demo.composition.presentation
+package com.laureanti.composition.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.demo.composition.R
-import com.demo.composition.databinding.FragmentGameFinishedBinding
-import com.demo.composition.domain.entity.GameResult
+import com.laureanti.composition.databinding.FragmentGameFinishedBinding
 import java.lang.RuntimeException
 
 class GameFinishedFragment : Fragment() {

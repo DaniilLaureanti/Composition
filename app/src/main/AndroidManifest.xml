@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.demo.composition">
+    package="com.laureanti.composition">
 
     <application
         android:allowBackup="true"
@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Composition">
         <activity
-            android:name=".presentation.MainActivity"
-            android:screenOrientation="portrait"
+            android:name="com.laureanti.composition.presentation.MainActivity"
+            android:screenOrientation="fullSensor"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

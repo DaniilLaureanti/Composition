@@ -1,4 +1,4 @@
-package com.demo.composition.presentation
+package com.laureanti.composition.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.demo.composition.databinding.FragmentGameBinding
-import com.demo.composition.domain.entity.GameResult
+import com.laureanti.composition.databinding.FragmentGameBinding
+import com.laureanti.composition.domain.entity.GameResult
 
 class GameFragment : Fragment() {
 
