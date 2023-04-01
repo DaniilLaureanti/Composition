@@ -25,6 +25,22 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    flavorDimensions.add("pricing")
+
+    productFlavors {
+        free {
+            dimension = "pricing"
+            applicationId "com.laureanti.composition.free"
+            resValue "string", "composition_provider_key", "com.laureanti.composition.app.free"
+        }
+        paid {
+            dimension = "pricing"
+            applicationId "com.laureanti.shoppinglist.paid"
+            resValue "string", "composition_provider_key", "com.laureanti.composition.app.paid"
+        }
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
