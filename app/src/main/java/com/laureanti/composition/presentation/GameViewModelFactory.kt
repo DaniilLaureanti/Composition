@@ -1,9 +1,9 @@
-package com.demo.composition.presentation
+package com.laureanti.composition.presentation
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.demo.composition.domain.entity.Level
+import com.laureanti.composition.domain.entity.Level
 import java.lang.RuntimeException
 
 class GameViewModelFactory(

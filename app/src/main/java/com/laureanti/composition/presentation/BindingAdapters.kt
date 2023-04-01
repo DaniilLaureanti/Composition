@@ -1,4 +1,4 @@
-package com.demo.composition.presentation
+package com.laureanti.composition.presentation
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -7,8 +7,8 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.databinding.BindingAdapter
-import com.demo.composition.R
-import com.demo.composition.domain.entity.GameResult
+import com.laureanti.composition.R
+import com.laureanti.composition.domain.entity.GameResult
 
 interface OnOptionClickListener {
     fun onOptionClick(option: Int)

@@ -1,4 +1,4 @@
-package com.demo.composition.presentation
+package com.laureanti.composition.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,11 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.demo.composition.R
-import com.demo.composition.databinding.FragmentChooseLevelBinding
-import com.demo.composition.domain.entity.Level
+import com.laureanti.composition.databinding.FragmentChooseLevelBinding
+import com.laureanti.composition.domain.entity.Level
 import java.lang.RuntimeException
-import com.demo.composition.presentation.ChooseLevelFragmentDirections as ChooseLevelFragmentDirections1
+import com.laureanti.composition.presentation.ChooseLevelFragmentDirections as ChooseLevelFragmentDirections1
 
 class ChooseLevelFragment : Fragment() {
 

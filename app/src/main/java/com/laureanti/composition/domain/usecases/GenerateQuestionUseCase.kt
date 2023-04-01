@@ -1,7 +1,7 @@
-package com.demo.composition.domain.usecases
+package com.laureanti.composition.domain.usecases
 
-import com.demo.composition.domain.entity.Question
-import com.demo.composition.domain.repository.GameRepository
+import com.laureanti.composition.domain.entity.Question
+import com.laureanti.composition.domain.repository.GameRepository
 
 class GenerateQuestionUseCase(
     private val repository: GameRepository

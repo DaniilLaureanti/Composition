@@ -1,9 +1,9 @@
-package com.demo.composition.data
+package com.laureanti.composition.data
 
-import com.demo.composition.domain.entity.GameSettings
-import com.demo.composition.domain.entity.Level
-import com.demo.composition.domain.entity.Question
-import com.demo.composition.domain.repository.GameRepository
+import com.laureanti.composition.domain.entity.GameSettings
+import com.laureanti.composition.domain.entity.Level
+import com.laureanti.composition.domain.entity.Question
+import com.laureanti.composition.domain.repository.GameRepository
 import kotlin.math.max
 import kotlin.math.min
 import kotlin.random.Random
